@@ -1,0 +1,149 @@
+body{
+
+margin:0;
+padding:0;
+font-family: 'Nunito', sans-serif;
+
+}
+
+#header{
+
+width: 100%;
+
+}
+
+.menu-icon{display:none}
+
+ul#navbar{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background:rgba(0,0,0,.8);
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index: 100;
+
+}
+
+#navbar li {
+
+    display:inline-block;
+    padding:10px;
+
+}
+
+li a {
+
+    display:block;
+    color:white;
+    text-align:center;
+    padding:8px 14px;
+    text-decoration:none;
+    transition: all .33 ease-in-out;
+    -o-border-transition: all .33 ease-in-out;
+    -moz-border-transition: all .33 ease-in-out;
+    -webkit-border-transition: all .33 ease-in-out;
+    border-radius:7px;
+    -o-border-radius:7px;
+    -ms-border-radius:7px;
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+
+}
+
+li a:hover{
+
+    background-color: darkslategrey;
+
+}
+
+.centrado {
+
+    position:absolute;
+    top:50%;
+    left:45%;
+    font-size: 3.5em;
+    color:whitesmoke;
+    font-weight: bolder;
+
+}
+
+#contenedor{
+    position:relative;
+    display:inline-box;
+    text-align: center;
+    margin:0;
+}
+
+h1{
+
+    color:white;
+    text-transform: uppercase;
+    font-family: monospace;
+    padding: 20px;
+    text-align:center;
+    background: firebrick;
+
+}
+
+#nosotros-img{
+    width:50%;
+    float:left;
+
+}
+
+#nosotros-texto{
+    width:50%;
+    float:left;
+    text-align: justify;
+    padding:0 5%;
+}
+
+h2{
+    text-align:center;
+    padding:40px 0;
+    font-size: 1.8em;
+}
+
+footer{
+
+    width:100%;
+    display: block;
+    overflow: hidden;
+    background: firebrick;
+    color:whitesmoke;
+    text-align: center;
+    line-height: 30px;
+}
+
+@media only screen and (max-width:767px){
+
+    span.menu-icon{display:block;cursor:pointer}
+
+    
+    #navbar .show{display: block;}
+
+    #navbar{
+
+        width:100%;
+        margin-top:1rem;
+
+    }
+
+    #navbar li {
+
+        display:block;
+    
+    }
+
+    #navbar li a{
+
+        display:block;
+        padding: .5rem 0;
+
+    }
+
+}

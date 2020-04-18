@@ -1,0 +1,59 @@
+*{
+	/*margin: 0;
+	padding: 0;
+	list-style: none;
+     text-decoration: none; */
+     outline: none;
+	font-family: sans-serif;
+	box-sizing: border-box;/*asegura que el relleno y el borde estén incluidos en el ancho y alto total de la caja html*/
+}
+
+table{
+    display:inline-block;
+    border: 1px solid teal;
+    border-collapse:collapse;
+    width:100%;
+    margin:20px auto;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+
+}
+
+/* table tr {width:100%;} */
+
+table tr th {
+
+    background-color: teal;
+    color:white;
+
+}
+
+td {
+
+    border: 1px solid teal;
+    padding: 10px;
+    text-align: center;
+    
+
+}
+
+form{
+
+    margin:20px auto;
+    border: 1px solid teal;
+    padding: 10px;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    width: 40%;
+    height: auto;
+
+}
+
+input [type="text"], input [type="password"]{
+    display: block;
+    float:left;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    margin-bottom:10px;
+    padding-left:5px
+}

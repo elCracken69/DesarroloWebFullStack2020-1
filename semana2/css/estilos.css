@@ -1,0 +1,16 @@
+.color1{
+    color:blueviolet;
+}
+
+#color2{
+    color:coral;
+}
+
+p.color1:first-letter{
+    font-size: 15px;
+    color:darkred;
+}
+
+p.color1:first-line{
+    padding-left: 10px;
+}

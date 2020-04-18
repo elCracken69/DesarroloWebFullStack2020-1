@@ -1,0 +1,64 @@
+body{
+    background-image: url('../img/dog-fondo.jpg');
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    font-family:monospace;
+}
+
+form{
+
+    width: 450px;
+    margin: 20px auto;
+    background-color: rgba(0,0,0,.4);
+    padding: 10px 20px; 
+    box-sizing: border-box;
+    border-radius:7px;
+    -o-border-radius:7px;
+    -ms-border-radius:7px;
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+    outline: none;
+    border:none;
+}
+
+form h2{
+    color:whitesmoke;
+    text-align: center;
+    margin:15px auto;
+    font-size:30px
+}
+
+input {
+    width:100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 7px;
+    border-radius:7px;
+    -o-border-radius:7px;
+    -ms-border-radius:7px;
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+}
+
+#boton{
+
+    background: #31384a;
+    color:whitesmoke;
+    padding:20px;
+    font-size: 20px;
+}
+
+#boton:hover{
+
+    cursor:pointer;
+    background: #0575a1;
+    color: white;
+
+}
+
+@media (max-width:480px){
+    form{
+        width:100%;
+    }
+}
